@@ -1,0 +1,22 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "DCloud-RichAlert",
+          "class": "uni.dcloud.io.uniplugin_richalert.RichAlertWXModule"
+        },
+        {
+          "type": "module",
+          "name": "yy-bmobsms",
+          "class": "wms.jawasoft.com.yy_bmobsms.SMSWXModule"
+        }
+      ]
+    },
+    {
+      "hooksClass": "uni.dcloud.io.uniplugin_stepcounter.StepCounterHookProxy"
+    }
+  ]
+}
